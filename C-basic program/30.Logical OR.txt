@@ -1,0 +1,9 @@
+
+#include<stdio.h>
+int main() {
+    int g,h;
+    scanf("%d %d",&g,&h);
+    printf("%d",g || h);
+    return 0;
+
+}
