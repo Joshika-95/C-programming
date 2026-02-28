@@ -1,0 +1,12 @@
+#include<stdio.h>
+void value(int P,int R,int T) {
+    int sum=0;
+    sum=(P*R*T)/100;
+    printf("%d",sum);
+}
+int main() {
+    int P,R,T;
+    scanf("%d %d %d",&P,&R,&T);
+    value(P,R,T);
+    return 0;
+}
